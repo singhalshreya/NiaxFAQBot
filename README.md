@@ -5,7 +5,7 @@ Have a hackathon coming up ?
 Worried you might miss the deadline? :astonished: 
 Can't find exact answers?
 
-NIAX is your one stop destination for any Hackathon! Get all ypur answers with Niax!
+NIAX is your one stop destination for any Hackathon! Get all your answers with Niax!
 
 
 
