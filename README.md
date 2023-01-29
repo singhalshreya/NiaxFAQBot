@@ -2,7 +2,7 @@
 
 NIAX -FAQBot welcome you!
 Have a hackathon coming up ? 
-Worried you might miss the deadline? :astonished: 
+Worried you might miss the deadline? 
 Can't find exact answers?
 
 NIAX is your one stop destination for any Hackathon! Get all your answers with Niax! Whether it is a trivial doubt or the whole process of registrtion, NIAX will help you best!
@@ -33,7 +33,7 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
 - npm packages
 
 
-## PDFs
+## Presentation 
 Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmKnwWNgrHbfNdlfNA/edit?utm_content=DAFYmqB8MP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to go to our presentation.
 
 
