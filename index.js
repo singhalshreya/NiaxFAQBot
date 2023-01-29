@@ -9,7 +9,7 @@ bot.command('start', ctx=> {
 })
 
 bot.action('start', ctx =>{
-    ctx.deleteMessage(hello);
+    // ctx.deleteMessage(hello);
     sendStartMessage(ctx);   
 })
 
