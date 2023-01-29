@@ -1,0 +1,26 @@
+{
+  "name": "telebot",
+  "version": "1.0.0",
+  "description": "Click [here](link) to go to our website.\r The website was deployed on versel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.5",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "telegraf": "3.33"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhalshreya/telebot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/singhalshreya/telebot/issues"
+  },
+  "homepage": "https://github.com/singhalshreya/telebot#readme"
+}
