@@ -1,9 +1,9 @@
 # NiaxFAQBot
 
-NIAX -FAQBot welcome you!
+NIAX -FAQBot welcomes you!
 Have a hackathon coming up ? 
 Worried you might miss the deadline? 
-Can't find exact answers?
+Can't find the exact answers ?
 
 NIAX is your one stop destination for any Hackathon! Get all your answers with Niax! Whether it is a trivial doubt or the whole process of registrtion, NIAX will help you best!
 
