@@ -322,18 +322,18 @@ bot.action('registration', ctx => {
         }) 
     })   
 
-    bot.on("Ishika Pandey",ctx=>{
+    bot.hears("Ishika Pandey",ctx=>{
         //"Event of the text"
           
           ctx.reply("Thanks Ishika, Can you share your email-id?")  //context function reply the message
           
         })
-        bot.on("ishika123@gmail.com",ctx=>{
+        bot.hears("ishika123@gmail.com",ctx=>{
           
           ctx.reply("Ishika please share your teamname."); //context function reply the message
           
         }) 
-        bot.on("Unbound",ctx=>{
+        bot.hears("Unbound",ctx=>{
           
             ctx.reply("Thanks for the details."); //context function reply the message
             bot.telegram.sendMessage(ctx.chat.id, hackMessage,
