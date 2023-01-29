@@ -423,7 +423,7 @@ bot.hears(/\/setreminder|\/stop/, (ctx) => {
 
 bot.action('rem', ctx => {
     
-        let hackMessage = "Should I set a reminder for you?? \nEnter '/send' to set reminder. \nEnter '/stop' to stop the reminder."
+        let hackMessage = "Should I set a reminder for you?? \nEnter '/setreminder' to set reminder. \nEnter '/stop' to stop the reminder."
         
         bot.telegram.sendMessage(ctx.chat.id, hackMessage,
             {
