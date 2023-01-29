@@ -5,7 +5,7 @@ Have a hackathon coming up ?
 Worried you might miss the deadline? :astonished: 
 Can't find exact answers?
 
-NIAX is your one stop destination for any Hackathon! Get all your answers with Niax!
+NIAX is your one stop destination for any Hackathon! Get all your answers with Niax! Whether it is a trivial doubt or the whole process of registrtion, NIAX will help you best!
 
 
 
@@ -13,11 +13,15 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
 - Get Hackathon details
 - Resolve your doubts
 - Access to Registeration 
+- User-friendly interface
+
 
 ## Benefits of Niax - FAQ Bot
 
  * Get Reminders
- * Resources
+ * Resources provided
+ * Information just a click away
+ 
 
 ## Technology Used:
 - Node JS 
@@ -33,3 +37,5 @@ Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmK
 ## Deployment
 Click [here](link) to go to our website.
 The website was deployed on versel.
+
+## License
