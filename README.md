@@ -27,7 +27,7 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
 
 
 ## PDFs
-Presentation Link: Click [here](link) to go to our presentation.
+Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmKnwWNgrHbfNdlfNA/edit?utm_content=DAFYmqB8MP4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to go to our presentation.
 
 
 ## Deployment
