@@ -414,7 +414,7 @@ bot.hears(/\/setreminder|\/stop/, (ctx) => {
   if (/\/setreminder/.test(ctx.update.message.text)) {
     sendInterval = setInterval(() => {
       ctx.reply('HACKATHON ON 31st Jan,2023!! \nSUBMIT YOUR PROJECT!!!');
-    }, 1000);
+    }, 600);
   } else if (/\/stop/.test(ctx.update.message.text)) {
     ctx.reply('ALLLLL THE BESTTT!!');
     ctx.reply("Enter '/start' command to go back.");
@@ -546,13 +546,13 @@ const requestPhoneKeyboard = {
                 reply_markup: {
                     inline_keyboard: [
                         [
-                            { text: 'insta', url:'https://www.youtube.com/watch?v=Lt-MY9LQLv0&list=PLX2ojSA27XYhIopdU2RRQIMe7gfwcKL84&index=66&ab_channel=TutorialWeekly' },                        
+                            { text: 'Insta', url:'https://www.youtube.com/watch?v=Lt-MY9LQLv0&list=PLX2ojSA27XYhIopdU2RRQIMe7gfwcKL84&index=66&ab_channel=TutorialWeekly' },                        
                         ],
                         [
-                            { text: 'phone number', callback_data: 'no' },                        
+                            { text: 'Phone No: 9823138917', callback_data: 'no' },                        
                         ],
                         [
-                            { text: 'email id', callback_data: 'id' },                        
+                            { text: 'Email-id: cb@igdtuw.ac.in', callback_data: 'id' },                        
                         ], 
                         [
                             { text: 'Back to INTRO', callback_data: 'start' },                        
