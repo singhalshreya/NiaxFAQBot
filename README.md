@@ -16,11 +16,14 @@ NIAX is your one stop destination for any Hackathon! Get all ypur answers with N
 
 ## Benefits of Niax - FAQ Bot
 
-[x] Get Reminders
-[x] Resources
+ * Get Reminders
+ * Resources
 
 ## Technology Used:
--Node JS , JavaScript , Replit ,npm packages
+-Node JS 
+-JavaScript 
+-Replit 
+-npm packages
 
 
 ## PDFs
