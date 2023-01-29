@@ -39,6 +39,7 @@ Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmK
 
 ## Deployment
 Click [here]([link](https://web.telegram.org/k/#@shreyaecho_bot)) to go to our Telegram Bot.
+You can also search our bot on telegram by searching @shreyaecho_bot
 
 ## Video Demo
 Click [here](https://youtu.be/--8j4-3eR_M) to watch our demo video.
