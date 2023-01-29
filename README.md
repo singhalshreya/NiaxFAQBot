@@ -38,8 +38,10 @@ Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmK
 
 
 ## Deployment
-Click [here](link) to go to our website.
+Click [here]([link](https://web.telegram.org/k/#@shreyaecho_bot)) to go to our Telegram Bot.
 
+## Video Demo
+Click [here](https://youtu.be/--8j4-3eR_M) to watch our demo video.
 
 ## License
 This repository is licensed under the MIT license. See the [LICENSE](https://github.com/singhalshreya/NiaxFAQBot/blob/main/LICENSE) file for more information.
