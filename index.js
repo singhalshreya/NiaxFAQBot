@@ -9,11 +9,9 @@ bot.command('start', ctx=> {
 })
 
 bot.action('start', ctx =>{
-    // ctx.deleteMessage();
+    ctx.deleteMessage(hello);
     sendStartMessage(ctx);   
 })
-
-
 
 function sendStartMessage(ctx){
     let startMessage = 'Heyy! I am Niax - FAQ bot:) \nHow can I help you?'
@@ -23,7 +21,7 @@ function sendStartMessage(ctx){
                 inline_keyboard: [
                     [
                         { text: 'HELP', callback_data: 'help'},
-                        { text: 'SETTINGS',callback_data: 'settings'}                         
+                        { text: 'LANGUAGE',callback_data: 'language'}                         
                     ],
                     [
                         { text: 'HACKATHON', callback_data: 'hackinfo'},  
@@ -37,6 +35,33 @@ function sendStartMessage(ctx){
         })
 }
 
+bot.action('hstart', ctx =>{
+    // ctx.deleteMessage();
+    sendHStartMessage(ctx);   
+})
+
+
+function sendHStartMessage(ctx){
+    let startMessage = 'नमस्कार!! मैं NiaxFAQBot हूं:) \nमैं आपकी कैसे मदद कर सकता हूं?'
+    bot.telegram.sendMessage(ctx.chat.id, startMessage,
+        {
+            reply_markup: {
+                inline_keyboard: [
+                    [
+                        { text: 'मदद', callback_data: 'help'},
+                        { text: 'भाषा',callback_data: 'language'}                         
+                    ],
+                    [
+                        { text: 'आयोजित हैकथॉन', callback_data: 'hackinfo'},  
+                        { text: 'पंजीकरण', callback_data: 'registration'}             
+                    ],
+                    [
+                        { text: 'सामान्य प्रशन', callback_data: 'faq'}
+                    ]    
+                ]            
+            }
+        })
+}
 
 const helpMessage = `
 Say something to mention
@@ -83,14 +108,18 @@ bot.action('hackinfo', ctx => {
         })
 })
 
-bot.action('settings', ctx => {
+bot.action('language', ctx => {
   
-    let hackMessage = "You have entered the settings command."
+    let hackMessage = "Choose your preferred language."
     
     bot.telegram.sendMessage(ctx.chat.id, hackMessage,
         {
             reply_markup: {
                 inline_keyboard: [
+                        [
+                            { text: 'English', callback_data: 'start' },
+                            { text: 'Hindi', callback_data: 'hstart' },                         
+                        ],
                     [
                         { text: 'Back to INTRO', callback_data: 'start' },                        
                     ]                    
@@ -291,25 +320,55 @@ bot.action('registration', ctx => {
                 ]
             }
         }) 
-    })     
+    })   
+
+    bot.on("Ishika Pandey",ctx=>{
+        //"Event of the text"
+          
+          ctx.reply("Thanks Ishika, Can you share your email-id?")  //context function reply the message
+          
+        })
+        bot.on("ishika123@gmail.com",ctx=>{
+          
+          ctx.reply("Ishika please share your teamname."); //context function reply the message
+          
+        }) 
+        bot.on("Unbound",ctx=>{
+          
+            ctx.reply("Thanks for the details."); //context function reply the message
+            bot.telegram.sendMessage(ctx.chat.id, hackMessage,
+                {
+                    reply_markup: {
+                        keyboard: [
+                            [
+                                {text: "Register Now"}
+                            ],
+                            [
+                                {text: "Remove Keyboard"}  
+                            ]
+                        ],
+                        resize_keyboard: true,
+                        one_time_keyboard:true
+                                    
+                    }
+                })
+              
+            })
+          
+        
 
 bot.action('req', ctx => {
-        let hackMessage = "Requirements for registration: \n1. Name \n2. Email-Id \n3. Phone Number \n4. Team name"
+        let hackMessage = "Requirements for registration: \n1. Name  \n2. Email-Id  \n3. Phone Number - Enter 'phone' \n4. Team name "
         ctx.reply("To continue the registartion process, enter 'REGISTER NOW'.");
+        
         bot.telegram.sendMessage(ctx.chat.id, hackMessage,
             {
                 reply_markup: {
-                    keyboard: [
+                    inline_keyboard: [
                         [
-                            {text: "Register Now"}
-                        ],
-                        [
-                            {text: "Remove Keyboard"}  
-                        ]
-                    ],
-                    resize_keyboard: true,
-                    one_time_keyboard:true
-                                
+                            { text: 'Back to INTRO', callback_data: 'start' },                        
+                        ]                    
+                    ]
                 }
             })
           
@@ -403,6 +462,32 @@ bot.action('help', ctx => {
                 }
             })
     })
+bot.hears('phone', (ctx) => {
+        // console.log(ctx.from)
+        bot.telegram.sendMessage(ctx.chat.id, 'Can we get access to your phone number?', requestPhoneKeyboard);
+    
+    })
+
+
+
+const requestPhoneKeyboard = {
+        reply_markup: {
+            keyboard: [
+                [{
+                    text: "Phone Number",
+                    request_contact: true,
+                    one_time_keyboard: true
+                }],
+                [
+                    {text: "Remove Keyboard"} 
+                ]
+               
+            ],
+            resize_keyboard: true,
+            one_time_keyboard:true
+        }
+    };
+    
 
     bot.action('ts', ctx => {
     
