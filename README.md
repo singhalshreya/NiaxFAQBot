@@ -20,10 +20,10 @@ NIAX is your one stop destination for any Hackathon! Get all ypur answers with N
  * Resources
 
 ## Technology Used:
--Node JS 
--JavaScript 
--Replit 
--npm packages
+- Node JS 
+- JavaScript 
+- Replit 
+- npm packages
 
 
 ## PDFs
