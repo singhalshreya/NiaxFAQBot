@@ -14,6 +14,7 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
 - Resolve your doubts
 - Access to Registeration 
 - User-friendly interface
+- Interact and have fun with Fortune Cookies
 
 
 ## Benefits of Niax - FAQ Bot
@@ -21,6 +22,8 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
  * Get Reminders
  * Resources provided
  * Information just a click away
+ * Compatible with Telegram
+ * Options at all time to jump back to main menu
  
 
 ## Technology Used:
@@ -36,6 +39,6 @@ Presentation Link: Click [here](https://www.canva.com/design/DAFYmqB8MP4/sNN4ZmK
 
 ## Deployment
 Click [here](link) to go to our website.
-The website was deployed on versel.
+
 
 ## License
