@@ -42,3 +42,4 @@ Click [here](link) to go to our website.
 
 
 ## License
+This repository is licensed under the MIT license. See the [LICENSE](https://github.com/singhalshreya/NiaxFAQBot/blob/main/LICENSE) file for more information.
