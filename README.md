@@ -14,6 +14,7 @@ NIAX is your one stop destination for any Hackathon! Get all your answers with N
 - Resolve your doubts
 - Access to Registeration 
 - User-friendly interface
+- Tabs for easy and fast navigation (no scripted text)
 - Interact and have fun with Fortune Cookies
 
 
