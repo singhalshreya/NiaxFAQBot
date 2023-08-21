@@ -1,9 +1,10 @@
 require('dotenv').config();
-const Telegraf = require('telegraf');
-const axios = require('axios');
+const Telegraf = require('telegraf');  //creating the bot
+const axios = require('axios');  //making HTTP requests
 
 const bot = new Telegraf(process.env.TOKEN);
 
+// command and action define the actions to be taken when /start is pressed by the user
 bot.command('start', ctx=> {
     sendStartMessage(ctx);
 })
@@ -13,6 +14,8 @@ bot.action('start', ctx =>{
     sendStartMessage(ctx);   
 })
 
+// function sends the initial start message
+// inline keyboard  = inline buttons
 function sendStartMessage(ctx){
     let startMessage = 'Heyy! I am Niax - FAQ bot:) \nHow can I help you?'
     bot.telegram.sendMessage(ctx.chat.id, startMessage,
@@ -275,6 +278,7 @@ bot.hears('2023/2024/2025', ctx => {
    
 })
 
+// hears method to listen for specific messages from users and respond accordingly
 bot.hears('2026', ctx => {
     bot.telegram.sendMessage(ctx.chat.id, 'For the 2026 batch, there is a no code track. \n1. [No Code Chrome Extension] Manage your College Life like a Pro \n2. [No Code Web App] create a Web app for Society Recruitments of IGDTUW \n3. [No Code Survey Bot] Build a Survey Bot for Faculty Feedback for IGDTUW Faculty',
         {
@@ -288,6 +292,7 @@ bot.hears('2026', ctx => {
         })
 })
 
+// removes the custom keyboard from the chat interface
 bot.hears('Remove Keyboard', ctx => {
     
     bot.telegram.sendMessage(ctx.chat.id, 'Removed Keyboard.',
